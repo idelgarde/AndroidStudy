@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView android:src="@drawable/androidparty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans_serif_light"
+        android:textColor="@android:color/white"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="Happy Birthday EU"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans_serif_light"
+        android:textSize="36sp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/white"
+        android:text="From eu tb!"
+        />
+
+
+</RelativeLayout>
